@@ -1,35 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
 <channel>
-<title>Peanuts Arrival</title>
-<link>https://github.com/RohanWest/Peanut<link>
+<link>https://www.YourSite.com</link>
 <language>en-us</language>
-<itunes:subtitle>Peanut</itunes:subtitle>
-<itunes:author>Peanut</itunes:author>
-<itunes:summary>Peanut</itunes:summary>
-<description>Peanut</description>
+<copyright>&#xA9;2018</copyright>
+<webMaster>your@email.com (Your Name)</webMaster>
+<managingEditor>your@email.com (Your Name)</managingEditor>
+<image>
+   <url>https://www.YourSite.com/ImageSize300X300.jpg</url>
+   <title>Title of your logo</title>
+   <link>https://www.YourSite.com</link>
+</image>
 <itunes:owner>
-    <itunes:name>Peanut</itunes:name>
-    <itunes:email>peanut@gmail.com</itunes:email>
+   <itunes:name>Your Name</itunes:name>
+   <itunes:email>your@email.com</itunes:email>
 </itunes:owner>
+<itunes:category text="Education">
+   <itunes:category text="Higher Education" />
+</itunes:category>
+<itunes:keywords>separate, by, comma, and, space</itunes:keywords>
 <itunes:explicit>no</itunes:explicit>
-<itunes:image href="http://www.example.com/podcast-icon.jpg" />
-<itunes:category text="Category Name"/></itunes:category>
+<itunes:image href="http://www.YourSite.com/ImageSize300X300.jpg" />
+<atom:link href="https://www.YourSite.com/feed.xml" rel="self" type="application/rss+xml" />
+<pubDate>Fri, 05 Oct 2018 09:00:00 GMT</pubDate>
+<title>Verbose title of the podcast</title>
+<itunes:author>College, school, or department owning the podcast</itunes:author>
+<description>Verbose description of the podcast.</description>
+<itunes:summary>Duplicate of above verbose description.</itunes:summary>
+<itunes:subtitle>Short description of the podcast - 255 character max.</itunes:subtitle>
+<lastBuildDate>Fri, 05 Oct 2018 09:00:00 GMT</lastBuildDate>
 
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 <item>
-    <title>P1</title>
-    <itunes:summary>P1</itunes:summary>
-    <description>P1</description>
-    <link>https://github.com/RohanWest/Peanut/raw/master/Colour-and-Calmness-02-Magic-Carpet-Relaxation.mp3</link>
-    <enclosure url="https://github.com/RohanWest/Peanut/raw/master/Colour-and-Calmness-02-Magic-Carpet-Relaxation.mp3" type="audio/mpeg" length="1024"></enclosure>
-    <pubDate>Mon, 02 Sep 2019 16:01:07 +0000</pubDate>
-    <itunes:author>Author Name</itunes:author>
-    <itunes:duration>00:32:16</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>https://github.com/RohanWest/Peanut/raw/master/Colour-and-Calmness-02-Magic-Carpet-Relaxation.mp3</guid>
-</item> 
+   <title>Verbose title of the episode</title>
+   <description>Verbose description of the episode.</description>
+   <itunes:summary>Duplicate of above verbose description.</itunes:summary>
+   <itunes:subtitle>Short description of the episode - 255 character max.</itunes:subtitle>
+   <itunesu:category itunesu:code="112" />
+   <enclosure url="https://www.YourSite.com/FILE.EXT" type="audio/mpeg" length="1" />
+   <guid>https://www.YourSite.com/FILE.EXT</guid>
+   <itunes:duration>H:MM:SS</itunes:duration>
+   <pubDate>Fri, 05 Oct 2018 09:00:00 GMT</pubDate>
+</item>
 <!--END REPEAT--> 
-   
+
 </channel>
 </rss>
