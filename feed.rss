@@ -7,7 +7,7 @@
 <webMaster>your@email.com (Your Name)</webMaster>
 <managingEditor>your@email.com (Your Name)</managingEditor>
 <image>
-   <url>https://www.YourSite.com/ImageSize300X300.jpg</url>
+   <url>https://github.com/RohanWest/Peanut/blob/master/Peanut-Facts-new-mobile.jpg</url>
    <title>Title of your logo</title>
    <link>https://www.YourSite.com</link>
 </image>
@@ -20,7 +20,7 @@
 </itunes:category>
 <itunes:keywords>separate, by, comma, and, space</itunes:keywords>
 <itunes:explicit>no</itunes:explicit>
-<itunes:image href="http://github.com/RohanWest/Peanut/blob/master/Peanut-Facts-new-mobile.jpg" />
+<itunes:image href="https://github.com/RohanWest/Peanut/blob/master/Peanut-Facts-new-mobile.jpg" />
 <atom:link href="https://www.YourSite.com/feed.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 05 Oct 2018 09:00:00 GMT</pubDate>
 <title>Verbose title of the podcast</title>
@@ -32,10 +32,10 @@
 
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 <item>
-   <title>Verbose title of the episode</title>
-   <description>Verbose description of the episode.</description>
-   <itunes:summary>Duplicate of above verbose description.</itunes:summary>
-   <itunes:subtitle>Short description of the episode - 255 character max.</itunes:subtitle>
+   <title>Colour And Calmness</title>
+   <description>Colour And Calmness.</description>
+   <itunes:summary>Colour And Calmness.</itunes:summary>
+   <itunes:subtitle>Colour And Calmness.</itunes:subtitle>
    <itunesu:category itunesu:code="112" />
    <enclosure url="https://kghonline.co.uk/hskjdfy897/downloads/mp3s/colour-and-calmness/Colour-and-Calmness-02-Magic-Carpet-Relaxation.mp3" type="audio/mpeg" length="1" />
    <guid>https://kghonline.co.uk/hskjdfy897/downloads/mp3s/colour-and-calmness/Colour-and-Calmness-02-Magic-Carpet-Relaxation.mp3</guid>
